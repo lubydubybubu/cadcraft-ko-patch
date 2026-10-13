@@ -1,0 +1,18 @@
+ ATTRIBUTION.md                    |    1 +
+ Cargo.lock                        |    1 +
+ README.md                         |    2 +-
+ crates/fonts/build.rs             |   12 +-
+ crates/fonts/src/craft_fonts.rs   |    3 +-
+ crates/ui-egui/Cargo.toml         |    1 +
+ crates/ui-egui/src/i18n/ko.tsv    | 1243 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ crates/ui-egui/src/i18n/mod.rs    |   20 ++-
+ crates/ui-egui/src/i18n/tests.rs  |  286 +++++++++++++++++++++++++++++++++++-
+ crates/ui-egui/src/lib.rs         |   16 +--
+ crates/ui-egui/src/menus.rs       |   11 +-
+ crates/ui-egui/src/options/mod.rs |    2 +-
+ crates/ui-egui/src/theme.rs       |  135 +++++++++++++++--
+ docs/control-protocol.md          |    4 +-
+ docs/localization-ko.md           |  147 +++++++++++++++++++
+ docs/localization-parity.md       |   10 +-
+ docs/localization.md              |   36 +++--
+ 17 files changed, 1880 insertions(+), 50 deletions(-)

@@ -1,0 +1,4 @@
+upstream: https://github.com/storytold/cadcraft.git
+tag: v0.6.2
+commit: 00c7613f1af3c73f7157fa91d9fe2635c6f23c06
+patch: patches/cadcraft-v0.6.2-ko.patch
